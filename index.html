@@ -30,8 +30,8 @@
       --explore-x: -50px;    /* Move explore section horizontally */
       --tokenomics-x: -40px; /* Move tokenomics section horizontally */
       --final-x: -40px;      /* Move final section horizontally */
-      --gallery-item-img-width: 50px;   /* Desktop gallery-item image width */
-      --gallery-item-img-height: 50px;  /* Desktop gallery-item image height */
+      --gallery-item-img-width: 100px;   /* Desktop gallery-item image width */
+      --gallery-item-img-height: 100px;  /* Desktop gallery-item image height */
       --gallery-item-img-width-mobile: 50px;  /* Mobile gallery-item image width */
       --gallery-item-img-height-mobile: 30px;  /* Mobile gallery-item image height */
     }
@@ -276,8 +276,8 @@ width: 100%;
 }
 .gallery-item img {
   width: 100%;
-  max-width: vr(--gallery-item-img-width);
-  height: vr(--gallery-item-img-height);
+  max-width: var(--gallery-item-img-width);
+  height: var(--gallery-item-img-height);
   border-radius: 12px;
   margin-bottom: 15px;
   display: block;
